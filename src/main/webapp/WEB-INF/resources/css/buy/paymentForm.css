@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+.wrapper {
+	grid-area: wrapper;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	width: 100%; min-width: 1050px;
+}
+
+/*content-내용*/
+.content {
+	display: inline-block;
+	margin: 180px; width: 1200px;
+}
+.content .title ul {
+	width: 1200px;
+}
+.content .title ul li#aa {
+	margin-left: 720px;
+	font-size: 12px;
+	color: #ddd;
+}
+.content .title ul li#bb {
+	font-size: 30px;
+	font-weight: 600;
+	height: 45px;
+	border-bottom: 1px solid #eee;
+}
+.content .title ul b {
+	font-size: 14px; 
+	font-weight: bold; color:orangered;
+}
+
+/*주문상세내역*/
+
+.content .order-detail p{
+	width: 1200px; height: 100px;
+	font-size: 22px; font-weight: 500; line-height: 140px;
+}
+.content .order-detail .option {
+	border-bottom: 1px solid #eee;
+	width: 1200px; font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.content .order-detail .option #t1 {
+	height: 30px; line-height: 30px;
+	background-color: #eee; border-top: 1px solid #333333;
+}
+.content .order-detail .option #t2 {
+	height: 50px; line-height: 50px;
+	border-bottom: 1px solid #eee;
+}
+
+/*배송정보*/
+
+.content .delivery-info p{
+	height: 100px; line-height: 140px;
+	font-size: 22px; font-weight: 500;
+}
+.content .delivery-info .deliver {
+	font-size: 14px; font-weight: bold;
+	border-top: 1px solid #eee; height: 80px; line-height: 80px;
+	width: 1200px;
+}
+.content .delivery-info .deliver b{
+	color:red; font-size: 16px;
+}
+.content .delivery-info .deliver #t3 {
+	border-top: 1px solid #777777;
+	width: 1200px;
+}
+.content .delivery-info .deliver tr:nth-child(n+2){
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.content .delivery-info .deliver tr:nth-child(3) {
+	line-height: 70px;
+}
+.content .delivery-info .deliver td:first-child {
+	background-color: #eee; text-align: center; width: 135px;
+}
+
+/*주문자 정보*/
+
+.content .buyer-info p {
+	font-size: 22px; font-weight: 500; height: 100px; line-height: 140px;
+}
+.content .buyer-info .buyer {
+	font-size: 14px; font-weight: bold;
+	border-top: 1px solid #eee; height: 80px; line-height: 80px;
+	width: 1200px;
+}
+.content .buyer-info .buyer b {
+	color: red;
+}
+.content .buyer-info .buyer #t9 {
+	border-top: 1px solid #777777;
+	width: 1200px;
+}
+.content .buyer-info .buyer tr:nth-child(n+2){
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.content .buyer-info .buyer tr:nth-child(3) {
+	line-height: 70px;
+}
+.content .buyer-info .buyer td:nth-child(1) {
+	background-color: #eee; text-align: center; width: 135px;
+}
+
+/*결제정보*/
+.content .pay-info p {
+	font-size: 22px; font-weight: 500; height: 100px; line-height: 140px;
+}
+.content .pay-info .receipt {
+	font-size: 14px; font-weight: bold;
+	border-top: 1px solid #eee; height: 80px; line-height: 80px;
+	width: 1200px;
+}
+.content .pay-info .receipt #t13 {
+	border-top: 1px solid #777777;
+	width: 1200px;
+}
+.content .pay-info .receipt tr:nth-child(n+2){
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.content .pay-info .receipt tr:nth-child(3) {
+	line-height: 70px; 
+}
+.content .pay-info .receipt td:nth-child(1) {
+	background-color: #eee; text-align: center; width: 135px;
+}
+.content .pay-info .receipt #t15 td:last-child {
+	color: orangered; font-size: 20px;
+}
+
+/*결제수단 선택/결제*/
+.content .pay p {
+	font-size: 22px; font-weight: 500; height: 100px; line-height: 140px;
+}
+.content .payment {
+	height: 200px;
+	display: flex; justify-content: space-between; align-items: center;
+}
+.content .payment .creditcard, .depositwb, .phone, .kakao, .payco, .banktransfer {
+	text-align: center; border: 1px solid #eee; border-radius: 10px;
+	width: 170px; height: 60px; line-height: 60px;
+	text-align: center;
+}
+.content .payment .creditcard:hover, .depositwb:hover, .phone:hover, .kakao:hover, .payco:hover, .banktransfer:hover {
+	border: 2px solid orangered; cursor: pointer;
+}
+.content .agree0 {
+	font-weight: bold; height: 30px;
+}
+.content .agree1 {
+	font-weight: bold; height: 30px;
+}
+.content .information {
+	width: 1200px; height: 60px; overflow: scroll;
+}
+.content .agree2 {
+	font-weight: bold; height: 50px;
+}
+.content .paymentBtn {
+	display: flex; justify-content: center; align-items: center; height: 100px;
+}
+.content .paymentBtn button {
+	background-color: orangered; width: 240px; height: 60px; 
+	color: white; font-size: 22px; font-weight: bold;
+	border-radius: 10px; border: 1px solid orangered; cursor: 
+}

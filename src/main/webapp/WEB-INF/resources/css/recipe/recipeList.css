@@ -1,0 +1,59 @@
+
+
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". . container container container container container container container container . ."
+    ". . container container container container container container container container . ."
+    ". . . . . . . . . . . .";
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  
+  grid-template-areas:
+  
+    "picture1 picture2 picture3 picture4"
+    "contents1 contents2 contents3 contents4";
+  grid-area: container;
+}
+
+.picture1 { grid-area: picture1; }
+
+
+
+.contents1 { grid-area: contents1; }
+
+
+
+
+For presentation only, no need to copy the code below
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.con{
+  height: auto;
+}
+
+ 
+ 

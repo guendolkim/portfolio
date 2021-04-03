@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*font-start*/
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} 
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');} 
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, select { font-family: 'Noto Sans KR', sans-serif !important; }
+/*font-end*/
+/**{outline: 1px solid #bbb;}*/
+a {text-decoration: none; color: black;}
+
+/*  body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+} */
+#fontSize{
+	font-size: 16px;
+}
+.wrapper {
+	grid-area: wrapper;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	width: 100%; min-width: 1050px;
+}
+
+
+/* content 시작 */
+
+.content_recipe {
+	margin-top:0;
+	width: 1200px;
+	display: inline-block;
+}
+.content_recipe .firstImg {
+	margin: 0 0 0 300px;
+	height: 300px;
+}
+.content_recipe .firstBox button#a{
+	margin-bottom: 30px;
+	width: 50px; height: 50px; border-radius: 50%;
+	background-color: #fff; border: 1px #777 solid;
+}
+.content_recipe .firstBox button#b{
+	margin-bottom: 30px;
+	width: 50px; height: 50px; border-radius: 50%;
+	background-color: #fff; border: 1px #777 solid;
+}
+.content_recipe .firstImg img {
+	width: 600px;
+	display: flex; justify-content: flex-end; align-content: center;
+}
+.content_recipe .firstBox {
+	margin: 170px 0 0 300px; text-align: center;
+	width: 600px; 
+}
+.content_recipe .firstBox hr {
+	border: 1px #eee solid;
+}
+.content_recipe .firstBox li#r1 {
+	font-size: 30px; font-weight: 700;
+	height: 40px; line-height: 40px;
+}
+.content_recipe .firstBox li#r2 {
+	font-size: 20px; font-weight: 400;
+	height: 30px; line-height: 30px;
+}
+.content_recipe .firstBox #profile {
+	margin-left: 80px;
+	width: 150px; height: 150px;
+	border-radius: 50%
+}
+.content_recipe .firstBox li#r3 {
+	height: 50px; line-height: 50px;
+	font-size: 18px;
+}
+.content_recipe .firstBox li#r3 a:hover {
+	color: orangered; font-weight: 500;
+}
+.content_recipe .firstBox li#r4 {
+	height: 40px; line-height: 40px;
+}
+.content_recipe .firstBox li#r5 {
+	height: 50px; line-height: 50px;
+}
+.content_recipe .firstBox li#r5 button {
+	width: 150px; height: 40px; line-height: 40px;
+	background-color: #fff; border-radius: 10px;
+	font-size: 15px; border: 1px #777 solid;
+}
+
+/* 2nd 박스*/
+
+
+.secondbox p {
+	font-size: 25px; color: #777;
+	height: 30px; line-height: 30px;
+	margin-bottom: 10px;
+}
+.secondbox .ibox {
+	border: 1px solid #777; padding: 10px;
+}
+
+/* 3rd 박스*/
+
+.thirdbox p {
+	font-size: 25px; color: #777;
+	height: 30px; line-height: 30px;
+	margin: 30px 0 0 10px;
+}
+.thirdbox .step p{
+	font-size: 18px; color: black;
+}
+.thirdbox .step img {
+margin-left: 700px;
+}
+/* .ibox .material{
+	font-size: 10px;
+} */
+
+/* 4th 박스*/
+.fourthbox p {
+	font-size: 25px; color: #777;
+	height: 30px; line-height: 30px;
+	margin: 30px 0 0 10px;
+}

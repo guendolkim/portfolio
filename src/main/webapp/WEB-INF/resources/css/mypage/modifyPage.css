@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* content_mypage 메뉴 시작 */
+.wrapper {
+	grid-area: wrapper;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	width: 100%; min-width: 1050px;
+}
+
+.content_mypage { 
+	width: 1200px; 
+	display: inline-flex; justify-content:space-between;
+}
+.content_mypage .myPage {
+	width: 220px; 
+}
+.content_mypage .myPage p{
+	margin: 0px 0 12px 0;
+	font-size: 20px; font-weight: 500;
+}
+.content_mypage .myPage .pageList {
+	border-left: 1px solid #eee; border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.content_mypage .myPage .pageList .orderlist, .review {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .review {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .myrecipe {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .modify {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .exit {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+
+
+/*마이페이지 메뉴 효과*/
+.content_mypage .myPage .pageList .orderlist:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .review:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .myrecipe:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .modify:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .exit:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+
+/* 회원정보 수정 */
+.content_mypage .changeInfo {
+	margin-right: 250px; 
+}
+.content_mypage .changeInfo h3 {
+ font-size: 20px;
+ 
+}
+.content_mypage .changeInfo table {
+ width: 550px;
+}
+
+.content_mypage .changeInfo .input {
+            width: 300px;
+            height: 45px;
+            padding: 0 10px;
+            border: solid 1px #ccc;
+            border-radius: 10px;
+}
+.content_mypage.changeInfo th {
+            width: 140px;
+            font-size: 14px;
+						text-align: right;
+						padding-right: 20px;
+}
+.content_mypage .changeInfo hr {
+	width: 550px;
+}
+.content_mypage .changeInfo .btn {
+            width: 300px;
+            height: 56px;
+            font-size: 14px;
+            line-height: 40px;
+						border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #ccc;
+}
+.content_mypage .changeInfo .btn:hover {
+	background-color: orangered; transition: 0.5s;
+	cursor: pointer;
+}
+
+.content_mypage .changeInfo .select_box {
+            padding: 10px 52px 10px 0;
+            font-size: 16px;
+}
+.content_mypage .changeInfo td {
+            padding: 10px 0;
+}
+.content_mypage .changeInfo .rapping {
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+}
+

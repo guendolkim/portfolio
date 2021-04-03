@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* content_mypage 메뉴 시작 */
+.wrapper {
+	grid-area: wrapper;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	width: 100%; min-width: 1050px;
+}
+
+.content_mypage { 
+	width: 1200px; 
+	display: inline-flex; justify-content:space-between;
+	min-height: 55vh;
+}
+.content_mypage .myPage {
+	width: 220px; 
+}
+.content_mypage .myPage p{
+	margin: 0px 0 12px 0;
+	font-size: 20px; font-weight: 500;
+}
+.content_mypage .myPage .pageList {
+	border-left: 1px solid #eee; border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.content_mypage .myPage .pageList .orderlist, .review {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .review {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .myrecipe {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .modify {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content_mypage .myPage .pageList .exit {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+
+
+/*마이페이지 메뉴 효과*/
+.content_mypage .myPage .pageList .orderlist:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .review:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .myrecipe:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .modify:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+.content_mypage .myPage .pageList .exit:hover {
+	background-color: rgba(0, 0, 0, 0.05); cursor: pointer;
+	color: orangered; font-weight: 500; transition: 0.5s;
+}
+
+
+/*주문했던 리스트*/
+.content_mypage .oderedList {
+	font-size: 13px; font-weight: 200; color: #777;
+	width: 970px;
+}
+.content_mypage .oderedList b{
+	font-size: 23px; font-weight: 500;
+}
+.content_mypage .oderedList p{
+	font-size: 18px; color:#777; height: auto;
+	border-top: 2px solid black;
+	border-bottom: 1px solid #777;
+}
+.content_mypage .oderedList #during {
+	width: 130px; height: 36px; font-size: 14px; color: #777; font-weight: 500;
+	padding: 4px; margin-left: 830px; cursor: pointer;
+}
+.content_mypage .oderedList .list_title {
+	margin-bottom: -30px; color: black;
+}

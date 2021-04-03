@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* 공통 */
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul a{
+	color: black;
+}
+a {
+	text-decoration: none; 
+	color: black;
+}
+
+.userMenu #a {
+	color: #c47315; 
+	padding: 0px 11px 0px 10px;
+}
+.userMenu #b {
+	padding: 0px 16px 0px 15px;
+}
+.userMenu #c {
+	padding: 0px 0px 0px 0px;
+}
+
+
+.footer-content{display: flex;}
+
+.container{ margin:0 auto ;}
+/* *{outline: 1px solid red;} */
+
+
+ .foot_left{
+   display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .foot-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .foot_tit{
+    margin: 0;
+    padding:10px 0 0 20%;
+    font-size: 30px;
+    font-family: cursive;
+  }
+  .left-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-tit{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 10px; 
+  }
+  .kakao{font-size: 15px;}
+  .foot_right{width: 50%; height: 100%;}
+  .right-list{padding-top: 15px;}
+  .right-list > p {padding:3px 0 5px 40px; margin:0 ;}
+
+  .connect_icon{
+    margin: 5px;
+    font-size: 25px;
+    height: 100%;
+  }
+  .content-img{padding: 8px 0 0 50px;}
+
+  .right_tit{
+  	font-size: 13px;
+  }
+  .list-tit{font-size : 15px;}

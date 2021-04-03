@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.wrapper {
+	width: 1200px; background-color: #fff;
+	position:fixed; top: 0px;
+	z-index: 2;
+}
+/* content 시작 */
+
+/* 마이컬리 메뉴 시작 */
+.content { 
+	width: 1200px; 
+	display: inline-flex; justify-content:space-between
+}
+.content .myKurlyMenu {
+	width: 220px; 
+}
+.content .myKurlyMenu p{
+	margin: 200px 0 25px 0;
+	font-size: 30px; font-weight: 500;
+}
+.content .myKurlyMenu .kurlyList {
+	border-left: 1px solid #eee; border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.content .myKurlyMenu .kurlyList .orderlist, .review {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+.content .myKurlyMenu .kurlyList .modify {
+	font-size: 14px; font-weight: 300; color: #777; text-align: left; padding-left: 25px;
+	border-bottom: 1px solid #eee; height: 50px; line-height: 50px; 
+}
+
+/*효과*/
+.content .myKurlyMenu .kurlyList .orderlist:hover {
+	background-color: rgba(0, 0, 0, 0.15); cursor: pointer;
+}
+.content .myKurlyMenu .kurlyList .review:hover {
+	background-color: rgba(0, 0, 0, 0.15); cursor: pointer;
+}
+.content .myKurlyMenu .kurlyList .modify:hover {
+	background-color: rgba(0, 0, 0, 0.15); cursor: pointer;
+}
+
+.content .oderedList {
+	margin: 200px 0 25px 0;
+	font-size: 13px; font-weight: 200; color: #777;
+	width: 970px; height: auto;
+}
+.content .oderedList b{
+	font-size: 23px; font-weight: 500;
+}
+.content .oderedList p{
+	font-size: 15px; color:#777; height: auto;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #777;
+}
+.content .oderedList #during {
+	width: 130px; height: 36px; font-size: 14px;
+	padding: 4px; margin-left: 830px; cursor: pointer;
+}
+.content .oderedList .list_title {
+	margin-bottom: -30px; 
+}
+.content .oderedList .list p{
+/*  임시 값 */ height: 500px; line-height: 500px; text-align: center;
+} 
